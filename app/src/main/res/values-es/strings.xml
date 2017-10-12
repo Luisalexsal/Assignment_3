@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">MIO APPLICATIONO</string>
+    <string name="welcome">Mesa Universidad</string>
+    <string name="opbutton">El Website-o</string>
+    <string name="callButton">Jamar Orita</string>
+    <string name="buttonMesa">El Website-o</string>
 </resources>

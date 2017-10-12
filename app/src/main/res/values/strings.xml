@@ -1,6 +1,8 @@
 <resources>
     <string name="app_name">My Application</string>
     <string name="opentext" />
-    <string name="welcome" >Welcome</string>
-    <string name="opbutton" >Sign in</string>
+    <string name="welcome">Mesa College</string>
+    <string name="opbutton">Website</string>
+    <string name="callButton">Call Now</string>
+    <string name="buttonMesa">Website</string>
 </resources>

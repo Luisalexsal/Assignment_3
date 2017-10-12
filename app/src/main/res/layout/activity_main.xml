@@ -4,17 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.cisc.myapplication.MainActivity">
+    tools:context="com.example.cisc.myapplication.MainActivity"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="340dp"
-        android:layout_height="263dp"
+        android:id="@+id/imageView6"
+        android:layout_width="199dp"
+        android:layout_height="186dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
         app:srcCompat="@drawable/poppy"
-        tools:layout_editor_absoluteY="6dp"
-        tools:layout_editor_absoluteX="16dp" />
+        tools:layout_editor_absoluteY="36dp"
+        tools:layout_editor_absoluteX="91dp" />
 
     <RelativeLayout
         android:layout_width="367dp"
@@ -23,26 +25,35 @@
         tools:layout_editor_absoluteY="1dp">
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonMesa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_centerHorizontal="true"
-            android:layout_marginBottom="71dp"
-            android:text="SIGN IN"
-            tools:text="@string/opbutton" />
+            android:layout_marginBottom="63dp"
+            android:text="@string/buttonMesa"
+            tools:text="@string/opbutton"
+            android:layout_above="@+id/callButton"
+            android:layout_centerHorizontal="true" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_above="@+id/button"
+            android:layout_above="@+id/buttonMesa"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="36dp"
-            android:text="Welcome"
+            android:text="Mesa College"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
             android:textStyle="bold"
             tools:text="@string/welcome" />
+
+        <Button
+            android:id="@+id/callButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignStart="@+id/buttonMesa"
+            android:layout_marginBottom="44dp"
+            android:text="@string/callButton" />
 
     </RelativeLayout>
 
